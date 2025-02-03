@@ -1,16 +1,41 @@
-# device_featurs
+## Show Device Model Screen
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This Flutter application displays the device model name and operating system version in the center of the screen. It uses the device_info_plus package to fetch the device information.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Detects whether the app is running on Android or iOS.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Retrieves and displays:
+
+     - Device Model Name
+ 
+   -  OS Version
+
+- Simple and clean UI with centered text.
+
+
+## Dependencies
+
+Make sure you have the following dependency in your pubspec.yaml file:
+
+## dependencies:
+  flutter:
+    sdk: flutter
+  device_info_plus: ^9.0.3  # Check for latest version
+
+## Installation & Usage
+
+Clone the repository
+
+git clone <your-repository-url>
+cd <your-project-folder>
+
+Install dependencies
+
+flutter pub get
+
+Run the app
