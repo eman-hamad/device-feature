@@ -1,5 +1,6 @@
 import 'package:device_featurs/google_map_screen.dart';
 import 'package:device_featurs/pick_muliple_images.dart';
+import 'package:device_featurs/play_audio.dart';
 import 'package:device_featurs/show_device_model.dart';
 import 'package:flutter/material.dart';
 
@@ -20,6 +21,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home:  GoogleMapScreen());
+        home:  PlayAudio());
   }
 }
