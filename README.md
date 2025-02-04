@@ -1,16 +1,34 @@
-# device_featurs
+# Image Picker App
 
-A new Flutter project.
+This Flutter app allows users to pick multiple images from their device storage using the `image_picker` package. The app displays the selected images in a grid-like view and allows users to upload more images.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Allows users to pick multiple images.
+- Displays the selected images in a scrollable view.
+- Simple user interface with a button to trigger image selection.
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- Dart
+- `image_picker` package (for picking images from the gallery)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+## dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.5+3
+
+## permissions:
+
+```
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.CAMERA"/>
+<uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+```
